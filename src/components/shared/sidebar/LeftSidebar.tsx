@@ -48,13 +48,31 @@ const LeftSidebar = () => {
         <div className="flex flex-col gap-6 px-2">
           <Link href="/sign-in">
             <Button className="small-medium btn-secondary min-h-[41px]  w-full  rounded-lg px-4 py-3 shadow-none">
-              <span className="primary-text-gradient">Sign In</span>
+              <Image
+                src="/assets/icons/account.svg"
+                width={20}
+                height={20}
+                alt="lock"
+                className="invert-colors lg:hidden"
+              />
+              <span className="primary-text-gradient max-lg:hidden">
+                Sign In
+              </span>
             </Button>
           </Link>
 
           <Link href="/sign-up">
             <Button className="small-medium light-border-2 btn-tertiary text-dark400_light900  min-h-[41px]  w-full rounded-lg px-4 py-3 shadow-none">
-              Sign Up
+              <Image
+                src="/assets/icons/sign-up.svg"
+                width={20}
+                height={20}
+                alt="Sign Up"
+                className="invert-colors lg:hidden"
+              />
+              <span className="primary-text-gradient max-lg:hidden">
+                Sign Up
+              </span>
             </Button>
           </Link>
         </div>
