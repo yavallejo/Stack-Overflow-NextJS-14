@@ -8,7 +8,7 @@ import { SignedOut } from "@clerk/nextjs";
 const LeftSidebar = () => {
   const pathName = usePathname();
   return (
-    <div className="custom-scrollbar background-light900_dark200 light-border sticky left-0 top-0 flex h-screen w-fit flex-col justify-between  overflow-y-auto border-r px-6 pb-8 pt-10 shadow-light-300 dark:shadow-none max-sm:hidden lg:w-[266px]">
+    <div className="custom-scrollbar background-light900_dark200 light-border sticky left-0 top-0 flex h-screen w-fit flex-col justify-between  overflow-y-auto border-r px-6 pb-8 pt-10 shadow-light-300 dark:shadow-none max-sm:hidden">
       <div className="flex flex-1 flex-col gap-6">
         {sidebarLinks.map((link) => {
           const isActive =

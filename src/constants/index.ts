@@ -1,4 +1,4 @@
-import { SidebarLink } from "@/types";
+import { HotNetwork, SidebarLink, PopularTags } from "@/types";
 
 export const themes = [
   { value: "light", label: "Light", icon: "/assets/icons/sun.svg" },
@@ -71,3 +71,60 @@ export const BADGE_CRITERIA = {
     GOLD: 100000,
   },
 };
+
+export const hotNetwork: HotNetwork[] = [
+  {
+    id: "1",
+    title:
+      "Would it be appropriate to point out an error in another paper during a referee report?",
+    link: "#",
+  },
+  {
+    id: "2",
+    title: "How can an airconditioning machine exist?",
+    link: "#",
+  },
+  {
+    id: "3",
+    title: "Interrogated every time crossing UK Border as citizen",
+    link: "#",
+  },
+  {
+    id: "4",
+    title: "Low digit addition generator",
+    link: "#",
+  },
+  {
+    id: "5",
+    title: "What is an example of 3 numbers that do not make up a vector?",
+    link: "#",
+  },
+];
+
+export const popularTags: PopularTags[] = [
+  {
+    id: "1",
+    title: "Javascript",
+    count: "20152+",
+  },
+  {
+    id: "2",
+    title: "NextJs",
+    count: "18493+",
+  },
+  {
+    id: "3",
+    title: "ReactJs",
+    count: "16269+",
+  },
+  {
+    id: "4",
+    title: "NodeJS",
+    count: "15121+",
+  },
+  {
+    id: "5",
+    title: "Python",
+    count: "14431+",
+  },
+];

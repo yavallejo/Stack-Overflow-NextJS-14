@@ -6,6 +6,18 @@ export interface SidebarLink {
   label: string;
 }
 
+export interface HotNetwork {
+  id?: string;
+  title: string;
+  link: string;
+}
+
+export interface PopularTags {
+  id?: string;
+  title: string;
+  count: string;
+}
+
 export interface Job {
   id?: string;
   employer_name?: string;
