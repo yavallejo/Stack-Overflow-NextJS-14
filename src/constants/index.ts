@@ -45,12 +45,12 @@ export const sidebarLinks: SidebarLink[] = [
 ];
 
 export const BADGE_CRITERIA = {
-  QUESTION_COUNT: {
+  QUESTION_totalQuestion: {
     BRONZE: 10,
     SILVER: 50,
     GOLD: 100,
   },
-  ANSWER_COUNT: {
+  ANSWER_totalQuestion: {
     BRONZE: 10,
     SILVER: 50,
     GOLD: 100,
@@ -103,28 +103,33 @@ export const hotNetwork: HotNetwork[] = [
 
 export const popularTags: PopularTags[] = [
   {
-    id: "1",
+    id: 1,
     title: "Javascript",
-    count: "20152+",
+    totalQuestion: 20152,
+    showCount: true,
   },
   {
-    id: "2",
+    id: 2,
     title: "NextJs",
-    count: "18493+",
+    totalQuestion: 18493,
+    showCount: true,
   },
   {
-    id: "3",
+    id: 3,
     title: "ReactJs",
-    count: "16269+",
+    totalQuestion: 16269,
+    showCount: true,
   },
   {
-    id: "4",
+    id: 4,
     title: "NodeJS",
-    count: "15121+",
+    totalQuestion: 15121,
+    showCount: true,
   },
   {
-    id: "5",
+    id: 5,
     title: "Python",
-    count: "14431+",
+    totalQuestion: 14431,
+    showCount: false,
   },
 ];

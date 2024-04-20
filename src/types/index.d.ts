@@ -13,9 +13,10 @@ export interface HotNetwork {
 }
 
 export interface PopularTags {
-  id?: string;
+  id?: number;
   title: string;
-  count: string;
+  totalQuestion?: number;
+  showCount?: boolean;
 }
 
 export interface Job {
