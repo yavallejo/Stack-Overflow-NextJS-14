@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <main className="background-light850_dark100 relative">
       <Navbar />
       <div className="pt-[104px]">
-        <div className="grid grid-cols-[266px_1fr_330px] gap-6">
+        <div className="gap-6 sm:grid sm:grid-cols-[116px_1fr] md:grid-cols-[266px_1fr] xl:grid-cols-[266px_1fr_330px]">
           <LeftSidebar />
           <section>{children}</section>
           <RightSidebar />
