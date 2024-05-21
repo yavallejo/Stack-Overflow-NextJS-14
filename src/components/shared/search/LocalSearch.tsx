@@ -16,8 +16,7 @@ const LocalSearch = () => {
         <Input
           type="text"
           placeholder="Search for Questions Here..."
-          value=""
-          className="paragraph-regular no-focus placeholder background-light800_darkgradient min-h-[56px] border-none shadow-none outline-none"
+          className="paragraph-regular no-focus  placeholder background-light800_darkgradient text-dark400_light800 min-h-[56px] border-none shadow-none outline-none"
         />
       </div>
     </div>
